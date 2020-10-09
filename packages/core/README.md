@@ -1,0 +1,2 @@
+# @gogodeno/core
+

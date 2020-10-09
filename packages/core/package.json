@@ -1,0 +1,28 @@
+{
+  "name": "@gogodeno/core",
+  "version": "0.1.0",
+  "description": "gogodeno client core lib",
+  "author": "이강현 <rkdgusdl92@gmail.com>",
+  "homepage": "https://github.com/DevlyKang/gogodeno-client#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevlyKang/gogodeno-client.git"
+  },
+  "scripts": {
+    "start": "npm run bundle -- --watch",
+    "bundle": "tsc",
+    "type-check": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/DevlyKang/gogodeno-client/issues"
+  },
+  "dependencies": {
+    "typescript": "~3.7.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
